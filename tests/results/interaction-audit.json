@@ -1,0 +1,297 @@
+[
+  {
+    "test": "Matrix: six rows",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Matrix: keyword filters",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Matrix: partial select",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Matrix: all selected",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Matrix: cell expansion",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Matrix: real CSV/Markdown download",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Matrix: save updates title",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Review: state loading",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Review: state empty",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Review: state error",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Review: state locked",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Review: state normal",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Review: font token",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Review: compact class",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Review: reset",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Matrix: no script errors",
+    "passed": true,
+    "detail": "[]"
+  },
+  {
+    "test": "Datasets: initial four",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Datasets: load more eight",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Datasets: search",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Datasets: detail modal",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Datasets: empty result",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Datasets: no script errors",
+    "passed": true,
+    "detail": "[]"
+  },
+  {
+    "test": "Daily: saved UI",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Daily: bibliography modal",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Daily: Markdown download",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Daily: print invoked",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Daily: no script errors",
+    "passed": true,
+    "detail": "[]"
+  },
+  {
+    "test": "Questions: create",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Questions: tracking",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Questions: edit",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Questions: confirm before delete",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Questions: delete",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Questions: no script errors",
+    "passed": true,
+    "detail": "[]"
+  },
+  {
+    "test": "Auth: visible password toggle",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Auth: clears visible credential",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Auth: no login claim",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Auth: no script errors",
+    "passed": true,
+    "detail": "[]"
+  },
+  {
+    "test": "Keys: create local placeholder",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Keys: invalid-token disclosure",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Keys: revoke",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Keys: no script errors",
+    "passed": true,
+    "detail": "[]"
+  },
+  {
+    "test": "Components: indeterminate",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Components: range updates",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Components: keyboard splitter",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Components: drawer opens",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Components: drawer closes",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Components: focus returns",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Components: no script errors",
+    "passed": true,
+    "detail": "[]"
+  },
+  {
+    "test": "Mobile: drawer opens",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Mobile: main inert",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Mobile: Escape restores",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Mobile: no script errors",
+    "passed": true,
+    "detail": "[]"
+  },
+  {
+    "test": "Adapter: unbound fails visibly",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Adapter: explicit service result",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Adapter: dialog",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Adapter: focus restored",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Adapter: no fixtures loaded",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Renderers: escape injected markup",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "test": "Adapter: no script errors",
+    "passed": true,
+    "detail": "[]"
+  }
+]

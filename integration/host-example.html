@@ -1,0 +1,14 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>独立接入示例</title><link rel="stylesheet" href="../assets/css/tokens.css"><link rel="stylesheet" href="../assets/css/components.css"><link rel="stylesheet" href="../assets/css/extensions.css"></head><body>
+<p>此段属于宿主页面，未加载预览的 body/html 重置。</p>
+<div id="pd-ui"><main style="max-width:900px;padding:24px"><h1>框架无关接入示例</h1><p class="helper">只加载共享 CSS 和可选 controller.js，不加载 demo/。下面的保存只连接内存示例，不连接服务器。</p>
+<section class="panel panel-body mt24"><form data-pd-form="example.save"><label class="field" for="title">标题<input id="title" type="text" name="title" value="我的综述" required maxlength="60"></label><div class="row mt16"><button class="btn primary" type="submit">保存到本页内存</button><button class="btn" type="button" data-pd-action="reviews.generate">未绑定的生成操作</button><button class="btn ghost" type="button" data-pd-ui="open-dialog" data-pd-target="#exampleDialog">查看局部弹窗</button></div></form><p class="helper" id="memoryTitle">尚未执行</p><div class="alert mt16" hidden data-pd-feedback></div></section>
+<dialog id="exampleDialog" aria-labelledby="exampleHeading"><div class="dialog-head"><h2 id="exampleHeading">局部 UI 容器</h2><button class="btn icon-btn" aria-label="关闭" data-pd-ui="close-dialog">×</button></div><div class="dialog-body"><p>宿主保留真实数据和鉴权，UI 层只负责外观、反馈与焦点。</p></div></dialog>
+</main></div><script src="controller.js"></script><script>
+const memory={title:null};
+const ui=PaperDailyUI.mount(document.getElementById('pd-ui'),{actions:{'example.save':async({data})=>{
+  const title=String(data.fields.title||'').trim();if(!title)return {ok:false,message:'请输入标题'};
+  memory.title=title;document.getElementById('memoryTitle').textContent='本页内存：'+memory.title;
+  return {ok:true,message:'已更新本页内存，未上传服务器。'};
+}}});
+window.addEventListener('pagehide',()=>ui.destroy(),{once:true});
+</script></body></html>

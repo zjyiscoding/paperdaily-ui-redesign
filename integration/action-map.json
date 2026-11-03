@@ -1,0 +1,327 @@
+{
+  "policy": "View actions, not API endpoints. Bind existing services and existing permission checks; no backend URLs assumed.",
+  "actions": [
+    {
+      "name": "account.changeEmail",
+      "pages": [
+        "account"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    },
+    {
+      "name": "account.changePassword",
+      "pages": [
+        "account"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    },
+    {
+      "name": "account.delete",
+      "pages": [
+        "account"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    },
+    {
+      "name": "authors.follow",
+      "pages": [
+        "author-detail"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    },
+    {
+      "name": "collections.create",
+      "pages": [
+        "saved-papers"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    },
+    {
+      "name": "datasets.open",
+      "pages": [
+        "dataset-detail",
+        "datasets"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    },
+    {
+      "name": "journals.request",
+      "pages": [
+        "account"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    },
+    {
+      "name": "keys.create",
+      "pages": [
+        "api-keys"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    },
+    {
+      "name": "keys.revoke",
+      "pages": [
+        "api-keys"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    },
+    {
+      "name": "keys.updateScopes",
+      "pages": [
+        "api-keys"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    },
+    {
+      "name": "papers.citation",
+      "pages": [
+        "annual-collection",
+        "author-detail",
+        "daily",
+        "paper-detail",
+        "paper-search",
+        "saved-papers"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    },
+    {
+      "name": "papers.open",
+      "pages": [
+        "paper-detail",
+        "paper-search",
+        "review-matrix"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    },
+    {
+      "name": "papers.toggleSaved",
+      "pages": [
+        "annual-collection",
+        "author-detail",
+        "daily",
+        "paper-detail",
+        "paper-search",
+        "saved-papers"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    },
+    {
+      "name": "questions.create",
+      "pages": [
+        "questions"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    },
+    {
+      "name": "questions.open",
+      "pages": [
+        "questions"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    },
+    {
+      "name": "questions.toggleTracking",
+      "pages": [
+        "question-detail",
+        "questions"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    },
+    {
+      "name": "questions.update",
+      "pages": [
+        "question-detail",
+        "questions"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    },
+    {
+      "name": "reports.export",
+      "pages": [
+        "daily"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    },
+    {
+      "name": "reports.subscribe",
+      "pages": [
+        "daily"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    },
+    {
+      "name": "reviews.export",
+      "pages": [
+        "review-matrix"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    },
+    {
+      "name": "reviews.generate",
+      "pages": [
+        "review-matrix"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    },
+    {
+      "name": "reviews.removePapers",
+      "pages": [
+        "review-matrix"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    },
+    {
+      "name": "reviews.save",
+      "pages": [
+        "review-matrix"
+      ],
+      "handler": "host callback required",
+      "network_endpoint": null
+    }
+  ],
+  "forms": [
+    {
+      "name": "account.updateDisplay",
+      "pages": [
+        "preferences"
+      ],
+      "payload": "FormData mapped by host",
+      "network_endpoint": null
+    },
+    {
+      "name": "account.updatePreferences",
+      "pages": [
+        "preferences"
+      ],
+      "payload": "FormData mapped by host",
+      "network_endpoint": null
+    },
+    {
+      "name": "account.updateProfile",
+      "pages": [
+        "account"
+      ],
+      "payload": "FormData mapped by host",
+      "network_endpoint": null
+    },
+    {
+      "name": "auth.login",
+      "pages": [
+        "login"
+      ],
+      "payload": "FormData mapped by host",
+      "network_endpoint": null
+    },
+    {
+      "name": "auth.password-reset",
+      "pages": [
+        "password-reset"
+      ],
+      "payload": "FormData mapped by host",
+      "network_endpoint": null
+    },
+    {
+      "name": "auth.register",
+      "pages": [
+        "register"
+      ],
+      "payload": "FormData mapped by host",
+      "network_endpoint": null
+    },
+    {
+      "name": "datasets.queryQuestion",
+      "pages": [
+        "datasets"
+      ],
+      "payload": "FormData mapped by host",
+      "network_endpoint": null
+    },
+    {
+      "name": "datasets.search",
+      "pages": [
+        "datasets"
+      ],
+      "payload": "FormData mapped by host",
+      "network_endpoint": null
+    },
+    {
+      "name": "datasets.searchTags",
+      "pages": [
+        "datasets"
+      ],
+      "payload": "FormData mapped by host",
+      "network_endpoint": null
+    },
+    {
+      "name": "profile.updateInterests",
+      "pages": [
+        "research-interests"
+      ],
+      "payload": "FormData mapped by host",
+      "network_endpoint": null
+    },
+    {
+      "name": "readings.saveNote",
+      "pages": [
+        "reading-detail"
+      ],
+      "payload": "FormData mapped by host",
+      "network_endpoint": null
+    },
+    {
+      "name": "readings.updateVisibility",
+      "pages": [
+        "privacy"
+      ],
+      "payload": "FormData mapped by host",
+      "network_endpoint": null
+    },
+    {
+      "name": "research.ask",
+      "pages": [
+        "research-qa"
+      ],
+      "payload": "FormData mapped by host",
+      "network_endpoint": null
+    },
+    {
+      "name": "reviews.save",
+      "pages": [
+        "review-matrix.dialogs"
+      ],
+      "payload": "FormData mapped by host",
+      "network_endpoint": null
+    }
+  ],
+  "preview_only_attributes": [
+    "data-action",
+    "data-site-action",
+    "data-site-form"
+  ],
+  "pure_ui_attributes": [
+    "data-pd-ui",
+    "data-pd-target"
+  ]
+}

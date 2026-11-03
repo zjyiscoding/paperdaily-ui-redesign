@@ -1,0 +1,50 @@
+[
+  {
+    "id": "did",
+    "name": "双重差分",
+    "english": "Difference-in-Differences",
+    "category": "研究设计",
+    "desc": "方法卡模板：把名称、用法片段、样本与来源分开，避免把论文内的用法当作一般定义。",
+    "count": 3
+  },
+  {
+    "id": "panel",
+    "name": "面板数据模型",
+    "english": "Panel Data Models",
+    "category": "统计与计量",
+    "desc": "可对照不同论文中的效应设定、样本维度和误差处理；此处为本地分类样例。",
+    "count": 2
+  },
+  {
+    "id": "theory",
+    "name": "理论模型",
+    "english": "Theoretical Models",
+    "category": "理论框架",
+    "desc": "保留模型假设、均衡条件和适用边界，具体文本由原站已有抽取字段提供。",
+    "count": 1
+  },
+  {
+    "id": "ml",
+    "name": "机器学习",
+    "english": "Machine Learning",
+    "category": "模型与算法",
+    "desc": "用法示例、算法名称和验证方式分别展示，未登记的字段明确留空。",
+    "count": 2
+  },
+  {
+    "id": "survey",
+    "name": "调查量表",
+    "english": "Survey Instruments",
+    "category": "量表与仪器",
+    "desc": "展示测量对象、量表来源和使用论文，不用使用次数推断测量有效性。",
+    "count": 1
+  },
+  {
+    "id": "stata",
+    "name": "Stata",
+    "english": "Statistical Software",
+    "category": "软件工具",
+    "desc": "区分软件工具与识别方法，来源论文与版本字段由原数据保留。",
+    "count": 2
+  }
+]

@@ -1,0 +1,456 @@
+[
+  {
+    "page": "home",
+    "slots": [
+      {
+        "selector": "#liveContent",
+        "data": "existing page data and permissions",
+        "rendering": "host bindings using view fragment"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "research-qa",
+    "slots": [
+      {
+        "selector": "#qaAnswer",
+        "data": "real answer + source evidence",
+        "rendering": "existing safe answer renderer"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "paper-search",
+    "slots": [
+      {
+        "selector": "#localList",
+        "data": "PageData<PaperView>",
+        "rendering": "PaperDailyViews.paperCard"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "saved-papers",
+    "slots": [
+      {
+        "selector": "#localList",
+        "data": "saved papers + collections",
+        "rendering": "host list"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "paper-detail",
+    "slots": [
+      {
+        "selector": "#paperDetailContent",
+        "data": "PaperView + original details",
+        "rendering": "host template"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "author-detail",
+    "slots": [
+      {
+        "selector": "#liveContent",
+        "data": "existing page data and permissions",
+        "rendering": "host bindings using view fragment"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "daily",
+    "slots": [
+      {
+        "selector": ".daily-content",
+        "data": "original report with sections",
+        "rendering": "host renderer"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "daily-history",
+    "slots": [
+      {
+        "selector": "#liveContent",
+        "data": "existing page data and permissions",
+        "rendering": "host bindings using view fragment"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "annual-collection",
+    "slots": [
+      {
+        "selector": "#liveContent",
+        "data": "existing page data and permissions",
+        "rendering": "host bindings using view fragment"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "datasets",
+    "slots": [
+      {
+        "selector": "#datasetGrid",
+        "data": "DatasetView[]",
+        "rendering": "PaperDailyViews.datasetCard"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "dataset-detail",
+    "slots": [
+      {
+        "selector": "#datasetDetailContent",
+        "data": "DatasetView + evidence records",
+        "rendering": "host template"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "methods",
+    "slots": [
+      {
+        "selector": "#liveContent",
+        "data": "existing page data and permissions",
+        "rendering": "host bindings using view fragment"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "method-detail",
+    "slots": [
+      {
+        "selector": "#methodDetailContent",
+        "data": "original method record",
+        "rendering": "host template"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "workbench",
+    "slots": [
+      {
+        "selector": "#liveContent",
+        "data": "existing page data and permissions",
+        "rendering": "host bindings using view fragment"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "review-matrix",
+    "slots": [
+      {
+        "selector": "#matrixBody",
+        "data": "ReviewRowView[]",
+        "rendering": "PaperDailyViews.reviewRows"
+      },
+      {
+        "selector": "#collectionTitle",
+        "data": "title",
+        "rendering": "host text binding"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "deep-reading",
+    "slots": [
+      {
+        "selector": "#liveContent",
+        "data": "existing page data and permissions",
+        "rendering": "host bindings using view fragment"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "reading-detail",
+    "slots": [
+      {
+        "selector": "#readingTitle",
+        "data": "paper title",
+        "rendering": "textContent"
+      },
+      {
+        "selector": "#field-note",
+        "data": "private note",
+        "rendering": "form value"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "questions",
+    "slots": [
+      {
+        "selector": "#questionList",
+        "data": "QuestionView[]",
+        "rendering": "PaperDailyViews.questionCard"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "question-detail",
+    "slots": [
+      {
+        "selector": "#questionDetailContent",
+        "data": "QuestionView + evidence records",
+        "rendering": "host template"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "login",
+    "slots": [
+      {
+        "selector": "#liveContent",
+        "data": "existing page data and permissions",
+        "rendering": "host bindings using view fragment"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "register",
+    "slots": [
+      {
+        "selector": "#liveContent",
+        "data": "existing page data and permissions",
+        "rendering": "host bindings using view fragment"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "password-reset",
+    "slots": [
+      {
+        "selector": "#liveContent",
+        "data": "existing page data and permissions",
+        "rendering": "host bindings using view fragment"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "account",
+    "slots": [
+      {
+        "selector": "#liveContent",
+        "data": "existing page data and permissions",
+        "rendering": "host bindings using view fragment"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "research-interests",
+    "slots": [
+      {
+        "selector": "#liveContent",
+        "data": "existing page data and permissions",
+        "rendering": "host bindings using view fragment"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "preferences",
+    "slots": [
+      {
+        "selector": "#liveContent",
+        "data": "existing page data and permissions",
+        "rendering": "host bindings using view fragment"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "billing",
+    "slots": [
+      {
+        "selector": "#liveContent",
+        "data": "existing page data and permissions",
+        "rendering": "host bindings using view fragment"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "api-keys",
+    "slots": [
+      {
+        "selector": "#keyRows",
+        "data": "redacted credential metadata, no tokens",
+        "rendering": "host table"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "privacy",
+    "slots": [
+      {
+        "selector": "#liveContent",
+        "data": "existing page data and permissions",
+        "rendering": "host bindings using view fragment"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "help",
+    "slots": [
+      {
+        "selector": "#liveContent",
+        "data": "existing page data and permissions",
+        "rendering": "host bindings using view fragment"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "help-article",
+    "slots": [
+      {
+        "selector": "#helpArticle",
+        "data": "original full help content",
+        "rendering": "existing safe rich text renderer"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "stats",
+    "slots": [
+      {
+        "selector": ".pd-chart",
+        "data": "real aggregated metrics with definitions",
+        "rendering": "existing chart engine"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "agents",
+    "slots": [
+      {
+        "selector": "#liveContent",
+        "data": "existing page data and permissions",
+        "rendering": "host bindings using view fragment"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "metrics",
+    "slots": [
+      {
+        "selector": "#liveContent",
+        "data": "existing page data and permissions",
+        "rendering": "host bindings using view fragment"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "changelog",
+    "slots": [
+      {
+        "selector": "#liveContent",
+        "data": "existing page data and permissions",
+        "rendering": "host bindings using view fragment"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "about",
+    "slots": [
+      {
+        "selector": "#liveContent",
+        "data": "existing page data and permissions",
+        "rendering": "host bindings using view fragment"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "not-found",
+    "slots": [
+      {
+        "selector": "#liveContent",
+        "data": "existing page data and permissions",
+        "rendering": "host bindings using view fragment"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  },
+  {
+    "page": "components",
+    "slots": [
+      {
+        "selector": "#liveContent",
+        "data": "existing page data and permissions",
+        "rendering": "host bindings using view fragment"
+      }
+    ],
+    "replace_demo_text": true,
+    "production_source": "existing host services — not supplied in this package"
+  }
+]

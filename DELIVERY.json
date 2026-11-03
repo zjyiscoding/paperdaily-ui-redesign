@@ -1,0 +1,22 @@
+{
+  "package": "PaperDaily UI integration handoff",
+  "version": "1.0.0",
+  "date": "2026-11-02",
+  "entry": "index.html",
+  "business_templates": 36,
+  "component_gallery": "pages/components.html",
+  "page_fragments": 37,
+  "component_families": 12,
+  "assembled_blocks": 8,
+  "element_recommendations": 55,
+  "real_backend_connected": false,
+  "preview_dependencies": [],
+  "approved_baseline_preserved": true,
+  "tests": {
+    "render_viewports": 114,
+    "interaction_assertions": 59,
+    "parameter_variants": 57,
+    "style_comparisons": 44,
+    "missing_local_links": 0
+  }
+}

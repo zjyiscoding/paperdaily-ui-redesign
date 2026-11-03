@@ -1,0 +1,401 @@
+[
+  {
+    "page": "paper-detail",
+    "query": "id=p1",
+    "passed": true,
+    "errors": [],
+    "actual_title": "预期与货币政策的传导"
+  },
+  {
+    "page": "paper-detail",
+    "query": "id=p2",
+    "passed": true,
+    "errors": [],
+    "actual_title": "理解通胀：通胀风险期限结构的视角"
+  },
+  {
+    "page": "paper-detail",
+    "query": "id=p3",
+    "passed": true,
+    "errors": [],
+    "actual_title": "为何自缚双手？财政规则采纳的制度与经济动因"
+  },
+  {
+    "page": "paper-detail",
+    "query": "id=p4",
+    "passed": true,
+    "errors": [],
+    "actual_title": "央行中的 DSGE 模型：进展与展望"
+  },
+  {
+    "page": "paper-detail",
+    "query": "id=p5",
+    "passed": true,
+    "errors": [],
+    "actual_title": "经济暴露与气候政策支持"
+  },
+  {
+    "page": "paper-detail",
+    "query": "id=p6",
+    "passed": true,
+    "errors": [],
+    "actual_title": "货币、财政与投资政策之间的协调缺口"
+  },
+  {
+    "page": "dataset-detail",
+    "query": "id=pisa",
+    "passed": true,
+    "errors": [],
+    "actual_title": "国际学生评估项目"
+  },
+  {
+    "page": "dataset-detail",
+    "query": "id=hrs",
+    "passed": true,
+    "errors": [],
+    "actual_title": "健康与退休研究"
+  },
+  {
+    "page": "dataset-detail",
+    "query": "id=wdi",
+    "passed": true,
+    "errors": [],
+    "actual_title": "世界发展指标"
+  },
+  {
+    "page": "dataset-detail",
+    "query": "id=ess",
+    "passed": true,
+    "errors": [],
+    "actual_title": "欧洲社会调查"
+  },
+  {
+    "page": "dataset-detail",
+    "query": "id=charls",
+    "passed": true,
+    "errors": [],
+    "actual_title": "中国健康与养老追踪调查"
+  },
+  {
+    "page": "dataset-detail",
+    "query": "id=psid",
+    "passed": true,
+    "errors": [],
+    "actual_title": "收入动态追踪调查"
+  },
+  {
+    "page": "dataset-detail",
+    "query": "id=cfps",
+    "passed": true,
+    "errors": [],
+    "actual_title": "中国家庭追踪调查"
+  },
+  {
+    "page": "dataset-detail",
+    "query": "id=compustat",
+    "passed": true,
+    "errors": [],
+    "actual_title": "Compustat"
+  },
+  {
+    "page": "method-detail",
+    "query": "id=did",
+    "passed": true,
+    "errors": [],
+    "actual_title": "双重差分"
+  },
+  {
+    "page": "method-detail",
+    "query": "id=panel",
+    "passed": true,
+    "errors": [],
+    "actual_title": "面板数据模型"
+  },
+  {
+    "page": "method-detail",
+    "query": "id=theory",
+    "passed": true,
+    "errors": [],
+    "actual_title": "理论模型"
+  },
+  {
+    "page": "method-detail",
+    "query": "id=ml",
+    "passed": true,
+    "errors": [],
+    "actual_title": "机器学习"
+  },
+  {
+    "page": "method-detail",
+    "query": "id=survey",
+    "passed": true,
+    "errors": [],
+    "actual_title": "调查量表"
+  },
+  {
+    "page": "method-detail",
+    "query": "id=stata",
+    "passed": true,
+    "errors": [],
+    "actual_title": "Stata"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=start",
+    "passed": true,
+    "errors": [],
+    "actual_title": "第一次使用"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=routine",
+    "passed": true,
+    "errors": [],
+    "actual_title": "日常研究跟进"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=review",
+    "passed": true,
+    "errors": [],
+    "actual_title": "建立文献综述"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=data-design",
+    "passed": true,
+    "errors": [],
+    "actual_title": "围绕数据形成设计"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=login",
+    "passed": true,
+    "errors": [],
+    "actual_title": "注册与登录"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=interests",
+    "passed": true,
+    "errors": [],
+    "actual_title": "研究兴趣"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=rebuild",
+    "passed": true,
+    "errors": [],
+    "actual_title": "日报任务状态"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=daily",
+    "passed": true,
+    "errors": [],
+    "actual_title": "阅读与导出日报"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=history",
+    "passed": true,
+    "errors": [],
+    "actual_title": "报告档案"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=search",
+    "passed": true,
+    "errors": [],
+    "actual_title": "文献检索"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=qa",
+    "passed": true,
+    "errors": [],
+    "actual_title": "研究问答与来源"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=paper",
+    "passed": true,
+    "errors": [],
+    "actual_title": "论文详情"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=saved",
+    "passed": true,
+    "errors": [],
+    "actual_title": "收藏与合集"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=matrix",
+    "passed": true,
+    "errors": [],
+    "actual_title": "保存与导出矩阵"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=reading",
+    "passed": true,
+    "errors": [],
+    "actual_title": "本地 Agent 深读"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=visibility",
+    "passed": true,
+    "errors": [],
+    "actual_title": "成果可见性"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=questions",
+    "passed": true,
+    "errors": [],
+    "actual_title": "开放问题"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=authors",
+    "passed": true,
+    "errors": [],
+    "actual_title": "作者档案"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=datasets",
+    "passed": true,
+    "errors": [],
+    "actual_title": "数据集地图"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=methods",
+    "passed": true,
+    "errors": [],
+    "actual_title": "研究方法索引"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=annual",
+    "passed": true,
+    "errors": [],
+    "actual_title": "年度论文集"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=account",
+    "passed": true,
+    "errors": [],
+    "actual_title": "账号与偏好"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=skills",
+    "passed": true,
+    "errors": [],
+    "actual_title": "安装 skills"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=mcp",
+    "passed": true,
+    "errors": [],
+    "actual_title": "MCP 接入"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=api",
+    "passed": true,
+    "errors": [],
+    "actual_title": "REST 接入"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=troubleshoot",
+    "passed": true,
+    "errors": [],
+    "actual_title": "常见失败与恢复"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=tracking",
+    "passed": true,
+    "errors": [],
+    "actual_title": "追踪清单与问题"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=metrics",
+    "passed": true,
+    "errors": [],
+    "actual_title": "统计与覆盖"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=billing",
+    "passed": true,
+    "errors": [],
+    "actual_title": "积分与配额"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=access",
+    "passed": true,
+    "errors": [],
+    "actual_title": "接入方式"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=keys",
+    "passed": true,
+    "errors": [],
+    "actual_title": "API Keys"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=api-errors",
+    "passed": true,
+    "errors": [],
+    "actual_title": "API 错误状态"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=roles",
+    "passed": true,
+    "errors": [],
+    "actual_title": "角色与权限"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=features",
+    "passed": true,
+    "errors": [],
+    "actual_title": "功能速查"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=entitlements",
+    "passed": true,
+    "errors": [],
+    "actual_title": "账号权益"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=evidence",
+    "passed": true,
+    "errors": [],
+    "actual_title": "材料与证据"
+  },
+  {
+    "page": "help-article",
+    "query": "topic=recommendation",
+    "passed": true,
+    "errors": [],
+    "actual_title": "推荐与持续研究"
+  }
+]

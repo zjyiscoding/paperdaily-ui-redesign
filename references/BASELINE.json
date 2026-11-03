@@ -1,0 +1,15 @@
+{
+  "source_files": {
+    "02-dataset-map.html": "4c404b110e3e588e7bc1e0b1c4cc6651bf625c3097eaa321ea3ec87bad79246c",
+    "01-review-matrix.html": "36b6955250075a231ac76075ddd0dc521844135cfcbbfbf8a829c384da2e842b",
+    "03-research-daily.html": "aa016136e97413fbc40359327c0fb29600df1b2738e9fd91c26fde5616ad713c"
+  },
+  "approved_tokens": "--bg:#f6f7f5;--surface:#fff;--ink:#25352f;--muted:#65746c;--faint:#eef2ee;--line:#dfe6e0;--accent:#28614e;--accent-strong:#1b4b3b;--accent-light:#eaf3ed;--danger:#a33936;--danger-bg:#fff1ee;--amber:#845f25;--amber-bg:#fbf3e3;--blue:#466579;--blue-bg:#eef3f7;--font-body:16px;--sidebar:216px;",
+  "preserved": "Visual tokens, sizes, density, component rules, page states and original demo behaviors",
+  "technical_changes": [
+    "Split host reset",
+    "Scope keyframe names",
+    "Extract data and scripts",
+    "Replace preview-only navigation links"
+  ]
+}

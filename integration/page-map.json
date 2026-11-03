@@ -1,0 +1,523 @@
+[
+  {
+    "key": "home",
+    "file": "pages/home.html",
+    "title": "首页",
+    "group": "发现与阅读",
+    "original_route": "/",
+    "evidence": "public",
+    "evidence_label": "公开结构已核对",
+    "modules": [
+      "M4"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 1
+  },
+  {
+    "key": "research-qa",
+    "file": "pages/research-qa.html",
+    "title": "研究问答",
+    "group": "发现与阅读",
+    "original_route": "/search",
+    "evidence": "public",
+    "evidence_label": "公开结构已核对",
+    "modules": [
+      "M5"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 2
+  },
+  {
+    "key": "paper-search",
+    "file": "pages/paper-search.html",
+    "title": "论文检索",
+    "group": "发现与阅读",
+    "original_route": "/library",
+    "evidence": "route-only",
+    "evidence_label": "入口已核对 · 内容为模板",
+    "modules": [
+      "M6"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 3
+  },
+  {
+    "key": "saved-papers",
+    "file": "pages/saved-papers.html",
+    "title": "已保存与合集",
+    "group": "发现与阅读",
+    "original_route": "/saved",
+    "evidence": "route-only",
+    "evidence_label": "入口已核对 · 内容为模板",
+    "modules": [
+      "M6"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 4
+  },
+  {
+    "key": "paper-detail",
+    "file": "pages/paper-detail.html",
+    "title": "论文详情",
+    "group": "发现与阅读",
+    "original_route": "/paper/<paper-id>",
+    "evidence": "public-template",
+    "evidence_label": "公开职责 + 动态详情模板",
+    "modules": [
+      "M6"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 5
+  },
+  {
+    "key": "author-detail",
+    "file": "pages/author-detail.html",
+    "title": "作者档案",
+    "group": "发现与阅读",
+    "original_route": null,
+    "evidence": "template",
+    "evidence_label": "待对接模板",
+    "modules": [
+      "M6"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 6
+  },
+  {
+    "key": "daily",
+    "file": "pages/daily.html",
+    "title": "研究日报",
+    "group": "发现与阅读",
+    "original_route": "/demo/daily",
+    "evidence": "approved",
+    "evidence_label": "已确认原型",
+    "modules": [
+      "M7"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 7
+  },
+  {
+    "key": "daily-history",
+    "file": "pages/daily-history.html",
+    "title": "报告档案",
+    "group": "发现与阅读",
+    "original_route": "/history",
+    "evidence": "documented",
+    "evidence_label": "依据公开功能说明",
+    "modules": [
+      "M7"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 8
+  },
+  {
+    "key": "annual-collection",
+    "file": "pages/annual-collection.html",
+    "title": "年度论文集",
+    "group": "发现与阅读",
+    "original_route": "/year/subfield/<id> 或 /year/field/<id>",
+    "evidence": "documented",
+    "evidence_label": "依据公开功能说明",
+    "modules": [
+      "M6"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 9
+  },
+  {
+    "key": "datasets",
+    "file": "pages/datasets.html",
+    "title": "数据集地图",
+    "group": "方法与数据",
+    "original_route": "/hub/datasets",
+    "evidence": "approved",
+    "evidence_label": "已确认原型",
+    "modules": [
+      "M8"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 10
+  },
+  {
+    "key": "dataset-detail",
+    "file": "pages/dataset-detail.html",
+    "title": "数据集资产卡",
+    "group": "方法与数据",
+    "original_route": "/hub/datasets/<dataset-id>",
+    "evidence": "public-template",
+    "evidence_label": "公开职责 + 动态详情模板",
+    "modules": [
+      "M8"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 11
+  },
+  {
+    "key": "methods",
+    "file": "pages/methods.html",
+    "title": "研究方法索引",
+    "group": "方法与数据",
+    "original_route": "/hub/methods",
+    "evidence": "public",
+    "evidence_label": "公开结构已核对",
+    "modules": [
+      "M8"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 12
+  },
+  {
+    "key": "method-detail",
+    "file": "pages/method-detail.html",
+    "title": "方法详情",
+    "group": "方法与数据",
+    "original_route": null,
+    "evidence": "template",
+    "evidence_label": "待对接模板",
+    "modules": [
+      "M8"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 13
+  },
+  {
+    "key": "workbench",
+    "file": "pages/workbench.html",
+    "title": "工作台总览",
+    "group": "综述与研究记录",
+    "original_route": "/workbench · 总览区域",
+    "evidence": "public+template",
+    "evidence_label": "公开框架 + 登录后模板",
+    "modules": [
+      "M9",
+      "M10"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 14
+  },
+  {
+    "key": "review-matrix",
+    "file": "pages/review-matrix.html",
+    "title": "综述矩阵",
+    "group": "综述与研究记录",
+    "original_route": "/workbench · 综述矩阵区域",
+    "evidence": "approved",
+    "evidence_label": "已确认原型",
+    "modules": [
+      "M11"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 15
+  },
+  {
+    "key": "deep-reading",
+    "file": "pages/deep-reading.html",
+    "title": "深读任务",
+    "group": "综述与研究记录",
+    "original_route": "/workbench · 深读区域",
+    "evidence": "template",
+    "evidence_label": "待对接模板",
+    "modules": [
+      "M12"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 16
+  },
+  {
+    "key": "reading-detail",
+    "file": "pages/reading-detail.html",
+    "title": "深读记录详情",
+    "group": "综述与研究记录",
+    "original_route": null,
+    "evidence": "template",
+    "evidence_label": "待对接模板",
+    "modules": [
+      "M12"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 17
+  },
+  {
+    "key": "questions",
+    "file": "pages/questions.html",
+    "title": "开放问题",
+    "group": "综述与研究记录",
+    "original_route": "/workbench · 问题区域",
+    "evidence": "template",
+    "evidence_label": "待对接模板",
+    "modules": [
+      "M13"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 18
+  },
+  {
+    "key": "question-detail",
+    "file": "pages/question-detail.html",
+    "title": "开放问题详情",
+    "group": "综述与研究记录",
+    "original_route": null,
+    "evidence": "template",
+    "evidence_label": "待对接模板",
+    "modules": [
+      "M13"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 19
+  },
+  {
+    "key": "login",
+    "file": "pages/login.html",
+    "title": "登录",
+    "group": "账号与偏好",
+    "original_route": "/login",
+    "evidence": "route-only",
+    "evidence_label": "入口已核对 · 内容为模板",
+    "modules": [
+      "M17"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 20
+  },
+  {
+    "key": "register",
+    "file": "pages/register.html",
+    "title": "注册",
+    "group": "账号与偏好",
+    "original_route": "/signup",
+    "evidence": "route-only",
+    "evidence_label": "入口已核对 · 内容为模板",
+    "modules": [
+      "M17"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 21
+  },
+  {
+    "key": "password-reset",
+    "file": "pages/password-reset.html",
+    "title": "找回密码",
+    "group": "账号与偏好",
+    "original_route": null,
+    "evidence": "template",
+    "evidence_label": "待对接模板",
+    "modules": [
+      "M17"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 22
+  },
+  {
+    "key": "account",
+    "file": "pages/account.html",
+    "title": "账户资料与安全",
+    "group": "账号与偏好",
+    "original_route": "/account",
+    "evidence": "documented",
+    "evidence_label": "依据公开功能说明",
+    "modules": [
+      "M17"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 23
+  },
+  {
+    "key": "research-interests",
+    "file": "pages/research-interests.html",
+    "title": "研究兴趣",
+    "group": "账号与偏好",
+    "original_route": null,
+    "evidence": "documented-template",
+    "evidence_label": "功能有说明 · 路由待核对",
+    "modules": [
+      "M17"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 24
+  },
+  {
+    "key": "preferences",
+    "file": "pages/preferences.html",
+    "title": "邮件与显示偏好",
+    "group": "账号与偏好",
+    "original_route": "/account · 设置卡片",
+    "evidence": "documented",
+    "evidence_label": "依据公开功能说明",
+    "modules": [
+      "M17"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 25
+  },
+  {
+    "key": "billing",
+    "file": "pages/billing.html",
+    "title": "积分与配额",
+    "group": "账号与偏好",
+    "original_route": null,
+    "evidence": "documented-template",
+    "evidence_label": "功能有说明 · 路由待核对",
+    "modules": [
+      "M17"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 26
+  },
+  {
+    "key": "api-keys",
+    "file": "pages/api-keys.html",
+    "title": "API Keys",
+    "group": "账号与偏好",
+    "original_route": "/account · API Keys 区域",
+    "evidence": "documented",
+    "evidence_label": "依据公开功能说明",
+    "modules": [
+      "M16",
+      "M17"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 27
+  },
+  {
+    "key": "privacy",
+    "file": "pages/privacy.html",
+    "title": "可见性与隐私",
+    "group": "账号与偏好",
+    "original_route": null,
+    "evidence": "documented-template",
+    "evidence_label": "功能有说明 · 路由待核对",
+    "modules": [
+      "M17"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 28
+  },
+  {
+    "key": "help",
+    "file": "pages/help.html",
+    "title": "帮助首页",
+    "group": "帮助与说明",
+    "original_route": "/help",
+    "evidence": "public",
+    "evidence_label": "公开结构已核对",
+    "modules": [
+      "M14"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 29
+  },
+  {
+    "key": "help-article",
+    "file": "pages/help-article.html",
+    "title": "帮助文章模板",
+    "group": "帮助与说明",
+    "original_route": "/help/<section>/<slug>",
+    "evidence": "public-template",
+    "evidence_label": "公开职责 + 动态详情模板",
+    "modules": [
+      "M14"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 30
+  },
+  {
+    "key": "stats",
+    "file": "pages/stats.html",
+    "title": "数据统计",
+    "group": "帮助与说明",
+    "original_route": "/stats",
+    "evidence": "route-only",
+    "evidence_label": "入口已核对 · 内容为模板",
+    "modules": [
+      "M15"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 31
+  },
+  {
+    "key": "agents",
+    "file": "pages/agents.html",
+    "title": "Agent 接入",
+    "group": "帮助与说明",
+    "original_route": "/agents-help",
+    "evidence": "public",
+    "evidence_label": "公开结构已核对",
+    "modules": [
+      "M16"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 32
+  },
+  {
+    "key": "metrics",
+    "file": "pages/metrics.html",
+    "title": "数据与口径",
+    "group": "帮助与说明",
+    "original_route": "/about/metrics",
+    "evidence": "public",
+    "evidence_label": "公开结构已核对",
+    "modules": [
+      "M18"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 33
+  },
+  {
+    "key": "changelog",
+    "file": "pages/changelog.html",
+    "title": "更新日志",
+    "group": "帮助与说明",
+    "original_route": "/changelog",
+    "evidence": "route-only",
+    "evidence_label": "入口已核对 · 内容为模板",
+    "modules": [
+      "M18"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 34
+  },
+  {
+    "key": "about",
+    "file": "pages/about.html",
+    "title": "关于知新",
+    "group": "帮助与说明",
+    "original_route": "/about",
+    "evidence": "public",
+    "evidence_label": "公开结构已核对",
+    "modules": [
+      "M18"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 35
+  },
+  {
+    "key": "not-found",
+    "file": "pages/not-found.html",
+    "title": "404 与错误页",
+    "group": "帮助与说明",
+    "original_route": null,
+    "evidence": "template",
+    "evidence_label": "待对接模板",
+    "modules": [
+      "M19"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 36
+  },
+  {
+    "key": "components",
+    "file": "pages/components.html",
+    "title": "组件与状态验收",
+    "group": "开发与验收",
+    "original_route": null,
+    "evidence": "tooling",
+    "evidence_label": "仅开发评审",
+    "modules": [
+      "M3",
+      "M19"
+    ],
+    "production_route_policy": "retain-existing",
+    "number": 37
+  }
+]

@@ -1,0 +1,2 @@
+/* Preview shell only. Do NOT copy this reset into the existing application. */
+html{scroll-behavior:smooth}body{margin:0;background:#f6f7f5}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{body{background:white}}
