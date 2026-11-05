@@ -15,5 +15,5 @@
 #pd-ui .pd-cell-full{font-size:15px;line-height:1.7;color:#4e5f53;overflow-wrap:anywhere}
 
 /* Make text selected while comparing papers easy to spot without changing the reading layout. */
-#pd-ui .daily-content ::selection,
-#pd-ui .daily-content::selection{color:var(--ink);background-color:var(--accent-light)}
+#pd-ui .pd-prose ::selection,
+#pd-ui .pd-prose::selection{color:var(--ink);background-color:var(--accent-light)}
