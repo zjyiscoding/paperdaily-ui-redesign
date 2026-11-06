@@ -12,13 +12,13 @@
 | QuestionView | id、title、state、paperIds、tracking | 追踪真实生效必须有后台回执 |
 | PageData | state、items、permissions；total/cursor 可缺 | 不从本地6篇样例推算全库总量；不把403当空列表 |
 
-`demo/data.json` 是原三页的数据快照，`demo/methods.json` / `questions.json` / `help-topics.json` 是模板演示。正式接入不 import 它们。
+`demo/data.json` 是本地数据快照，`demo/methods.json` / `help-topics.json` 是模板演示。正式接入不 import 它们。
 
 ## 2. 动作命名
 
-`data-pd-action` 使用视图意图而不是接口路径，例如 `reviews.save`、`questions.update`。开发者把这些意图映射到原事件/服务，**不据此新建 `/api/reviews.save` 等假地址**。完整静态标记与来源页见 `action-map.json`。
+`data-pd-action` 使用视图意图而不是接口路径，例如 `reviews.save`。开发者把这些意图映射到原事件/服务，**不据此新建 `/api/reviews.save` 等假地址**。完整静态标记与来源页见 `action-map.json`。
 
-动态渲染器提供：`papers.open`、`papers.toggleSaved`、`papers.citation`、`datasets.open`、`questions.open`、`questions.update`、`questions.toggleTracking`。其他逻辑采用原框架组件或自行绑定。
+动态渲染器提供：`papers.open`、`papers.toggleSaved`、`papers.citation`、`datasets.open`。其他逻辑采用原框架组件或自行绑定。
 
 `data-pd-form` 标注表单意图，提交后得到 `data.fields`；多值字段为数组，文件若存在仍是 File，不能当普通字符串拼到 HTML。真实权限、提交校验和敏感字段处置必须由宿主实现。
 

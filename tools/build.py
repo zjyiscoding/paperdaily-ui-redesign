@@ -13,7 +13,7 @@ def active_group(key):
       'paper-search':['paper-search','paper-detail','author-detail','annual-collection'],
       'saved-papers':['saved-papers'], 'daily':['daily','daily-history'],
       'datasets':['datasets','dataset-detail','methods','method-detail'],
-      'workbench':['workbench','review-matrix','deep-reading','reading-detail','questions','question-detail'],
+      'workbench':['workbench'],
       'help':['help','help-article','about','metrics','changelog'], 'stats':['stats'], 'agents':['agents']}
     return next((group for group, keys in groups.items() if key in keys), '')
 
@@ -53,7 +53,7 @@ def build():
         extra = ROOT/'src/pages'/f'{key}.dialogs.html'
         if extra.exists(): dialogs += '\n'+extra.read_text(encoding='utf-8')
         dialogs=replace_vars(dialogs,replacements)
-        data_page = {'review-matrix':'matrix','datasets':'datasets','daily':'daily'}.get(key,key)
+        data_page = {'workbench':'matrix','datasets':'datasets','daily':'daily'}.get(key,key)
         styles='\n'.join(f'<link rel="stylesheet" href="{base}assets/css/{x}.css">' for x in ['tokens','components','extensions','preview-host'])
         scripts='\n'.join(f'<script defer src="{base}demo/{x}.js"></script>' for x in ['data','site-data','approved-pages','site'])
         doc=f'''<!doctype html>
