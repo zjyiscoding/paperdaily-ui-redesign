@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="../assets/css/components.css">
 <link rel="stylesheet" href="../assets/css/extensions.css">
 <link rel="stylesheet" href="../assets/css/preview-host.css">
-<link rel="stylesheet" href="../assets/css/workbench.css?v=material-links-1">
+<link rel="stylesheet" href="../assets/css/workbench.css?v=two-column-tags-1">
 <script defer src="../demo/data.js"></script>
 <script defer src="../demo/site-data.js"></script>
 <script defer src="../demo/approved-pages.js"></script>
@@ -17,37 +17,40 @@
     <div class="wb-material-grid" aria-label="工作台模块">
       <article class="wb-material-card">
         <a class="wb-material-name" href="daily.html"><span class="wb-material-icon" aria-hidden="true">▣</span><strong>每日报告</strong></a>
-        <div class="wb-material-detail"><strong>今日报告尚未生成</strong><a class="wb-material-secondary-link" href="daily-history.html">查看报告历史</a></div>
+        <div class="wb-material-detail"><strong>今日报告尚未生成</strong><a class="wb-material-secondary-link" href="daily-history.html">查看报告历史</a><div class="wb-material-tags"><span class="wb-material-tag wb-material-tag--neutral">待生成</span></div></div>
         <span class="wb-material-chevron" aria-hidden="true">›</span>
       </article>
       <article class="wb-material-card">
         <a class="wb-material-name" href="saved-papers.html"><span class="wb-material-icon" aria-hidden="true">♧</span><strong>已保存</strong></a>
-        <div class="wb-material-detail"><strong>34 篇已保存论文</strong><small>1 个合集</small></div>
+        <div class="wb-material-detail"><strong>34 篇已保存论文</strong><div class="wb-material-tags"><span class="wb-material-tag">1 个合集</span></div></div>
         <span class="wb-material-chevron" aria-hidden="true">›</span>
       </article>
       <article class="wb-material-card">
         <a class="wb-material-name" href="research-interests.html"><span class="wb-material-icon" aria-hidden="true">◈</span><strong>兴趣模型</strong></a>
-        <div class="wb-material-detail"><strong>9 个关注主题</strong><small>2 位关注作者</small></div>
+        <div class="wb-material-detail"><strong>9 个关注主题</strong><div class="wb-material-tags"><span class="wb-material-tag">2 位关注作者</span></div></div>
         <span class="wb-material-chevron" aria-hidden="true">›</span>
       </article>
       <article class="wb-material-card">
         <a class="wb-material-name" href="review-matrix.html"><span class="wb-material-icon" aria-hidden="true">▦</span><strong>综述矩阵</strong></a>
-        <div class="wb-material-detail"><strong>货币政策、预期与财政约束</strong><small>1 份已保存综述 · 40 篇论文</small></div>
+        <div class="wb-material-detail"><strong>货币政策、预期与财政约束</strong><div class="wb-material-tags"><span class="wb-material-tag">1 份已保存综述</span><span class="wb-material-tag wb-material-tag--neutral">40 篇论文</span></div></div>
         <span class="wb-material-chevron" aria-hidden="true">›</span>
       </article>
       <article class="wb-material-card">
         <a class="wb-material-name" href="deep-reading.html"><span class="wb-material-icon" aria-hidden="true">▤</span><strong>深读</strong></a>
-        <div class="wb-material-detail"><strong>Diamond Cuts Diamond</strong><small>3 个深读 Session</small></div>
+        <div class="wb-material-detail"><strong>Diamond Cuts Diamond</strong><small>3 个深读 Session</small>
+          <!-- Topic examples are based on the supplied screenshot; replace with real account data during integration. -->
+          <div class="wb-material-tags wb-topic-tags" id="wbTopicTags" aria-label="深读主题" data-topics='[{"name":"Finance","count":3},{"name":"Accounting","count":2},{"name":"Management Science and Operations Research","count":2},{"name":"General Social Sciences","count":1},{"name":"Safety Research","count":1},{"name":"Sociology and Political Science","count":1}]'></div>
+        </div>
         <span class="wb-material-chevron" aria-hidden="true">›</span>
       </article>
       <article class="wb-material-card">
         <a class="wb-material-name" href="questions.html"><span class="wb-material-icon" aria-hidden="true">?</span><strong>问题</strong></a>
-        <div class="wb-material-detail"><strong>4 个开放问题</strong><small>待继续核验</small></div>
+        <div class="wb-material-detail"><strong>4 个开放问题</strong><div class="wb-material-tags"><span class="wb-material-tag wb-material-tag--neutral">待继续核验</span></div></div>
         <span class="wb-material-chevron" aria-hidden="true">›</span>
       </article>
       <article class="wb-material-card">
         <a class="wb-material-name" href="questions.html?tracking=1"><span class="wb-material-icon" aria-hidden="true">⌁</span><strong>追踪清单</strong></a>
-        <div class="wb-material-detail"><strong>0 条激活追踪</strong><small>暂无追踪任务</small></div>
+        <div class="wb-material-detail"><strong>0 条激活追踪</strong><div class="wb-material-tags"><span class="wb-material-tag wb-material-tag--neutral">暂无追踪任务</span></div></div>
         <span class="wb-material-chevron" aria-hidden="true">›</span>
       </article>
     </div>

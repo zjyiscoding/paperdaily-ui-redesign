@@ -50,6 +50,14 @@
     out.innerHTML=`${badge(t[2],'outline')}<h2>${h(t[1])}</h2><p class="helper">简要说明示例 · 非原站全文替代品</p><div class="row mt16">${bodySections.map((x,i)=>link(x[0],'#help-section-'+i,'text-link')).join('')}</div>${bodySections.map((x,i)=>`<section id="help-section-${i}"><h2>${h(x[0])}</h2><p>${h(x[1])}</p></section>`).join('')}<div class="alert neutral mt24">正式接入保留站方原文、图片和章节顺序；当前文字仅用于检验长文组件。</div><div class="row mt24">${link('打开对应页面',t[3]+'.html','btn primary')}${link('全部帮助主题','help.html','btn')}</div>`;
     $$('.pd-help-nav a').forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='help-article.html?topic='+t[0]));
   }
+  function renderWorkbenchTopics(){
+    const out=$('#wbTopicTags');if(!out)return;
+    let topics=[];try{topics=JSON.parse(out.dataset.topics||'[]');}catch(_){}
+    if(!Array.isArray(topics))topics=[];
+    topics=topics.filter(t=>t&&typeof t.name==='string').map((t,i)=>({name:t.name,count:Math.max(0,Number(t.count)||0),order:i})).sort((a,b)=>b.count-a.count||a.order-b.order);
+    const shown=topics.length>3?topics.slice(0,2):topics;
+    out.innerHTML=shown.map(t=>`<span class="wb-material-tag" title="${h(t.name)}">${h(t.name)} · ${t.count}</span>`).join('')+(topics.length>3?`<span class="wb-material-tag wb-material-tag--neutral" title="${h(topics.slice(2).map(t=>t.name).join('、'))}">+${topics.length-2}</span>`:'');
+  }
   function filterLocal(){
     const input=$('[data-local-search]');if(!input)return;
     const q=input.value.trim().toLocaleLowerCase();const filters=$$('[data-local-filter]');
@@ -172,7 +180,7 @@
   // Apply query only to the matching local field; do not evaluate it or render it as HTML.
   if(page==='research-qa'&&params.has('q'))$('#field-question').value=params.get('q');
   if(page==='reading-detail'){$('#readingTitle').textContent=currentPaper().zh;const note=readStore('reading-note-'+currentPaper().id,null);if(typeof note==='string')$('#field-note').value=note;}
-  renderPaper();renderDataset();renderMethod();renderQuestions();renderQuestion();renderKeys();renderHelp();
+  renderPaper();renderDataset();renderMethod();renderQuestions();renderQuestion();renderKeys();renderHelp();renderWorkbenchTopics();
   if($('#demoIndeterminate'))$('#demoIndeterminate').indeterminate=true;
   if($('#field-componentReadonly'))$('#field-componentReadonly').readOnly=true;
   // Restore only non-sensitive demonstration settings.
