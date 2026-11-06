@@ -159,18 +159,6 @@
     "page": "workbench",
     "slots": [
       {
-        "selector": "#liveContent",
-        "data": "existing page data and permissions",
-        "rendering": "host bindings using view fragment"
-      }
-    ],
-    "replace_demo_text": true,
-    "production_source": "existing host services — not supplied in this package"
-  },
-  {
-    "page": "review-matrix",
-    "slots": [
-      {
         "selector": "#matrixBody",
         "data": "ReviewRowView[]",
         "rendering": "PaperDailyViews.reviewRows"
@@ -179,59 +167,6 @@
         "selector": "#collectionTitle",
         "data": "title",
         "rendering": "host text binding"
-      }
-    ],
-    "replace_demo_text": true,
-    "production_source": "existing host services — not supplied in this package"
-  },
-  {
-    "page": "deep-reading",
-    "slots": [
-      {
-        "selector": "#liveContent",
-        "data": "existing page data and permissions",
-        "rendering": "host bindings using view fragment"
-      }
-    ],
-    "replace_demo_text": true,
-    "production_source": "existing host services — not supplied in this package"
-  },
-  {
-    "page": "reading-detail",
-    "slots": [
-      {
-        "selector": "#readingTitle",
-        "data": "paper title",
-        "rendering": "textContent"
-      },
-      {
-        "selector": "#field-note",
-        "data": "private note",
-        "rendering": "form value"
-      }
-    ],
-    "replace_demo_text": true,
-    "production_source": "existing host services — not supplied in this package"
-  },
-  {
-    "page": "questions",
-    "slots": [
-      {
-        "selector": "#questionList",
-        "data": "QuestionView[]",
-        "rendering": "PaperDailyViews.questionCard"
-      }
-    ],
-    "replace_demo_text": true,
-    "production_source": "existing host services — not supplied in this package"
-  },
-  {
-    "page": "question-detail",
-    "slots": [
-      {
-        "selector": "#questionDetailContent",
-        "data": "QuestionView + evidence records",
-        "rendering": "host template"
       }
     ],
     "replace_demo_text": true,

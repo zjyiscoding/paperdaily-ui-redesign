@@ -50,7 +50,7 @@ root.querySelector('#matrixBody').innerHTML =
 
 renderers 不读取网络、账户或演示数据；会转义字符串，拒绝非 HTTP(S) 来源链接。缺失值显示“未提供/—”，不会伪造作者、DOI、使用关系或材料级别。它不是 HTML 富文本净化库；原应用的合法富文本仍使用原净化/渲染方案。
 
-列表与表格可分别采用 `paperCard`、`datasetCard`、`questionCard`、`reviewRows`、`statePanel`。未包含的复杂业务块照 `fragments` 改造成原有组件，不强制使用字符串模板。
+列表与表格可分别采用 `paperCard`、`datasetCard`、`reviewRows`、`statePanel`。未包含的复杂业务块照 `fragments` 改造成原有组件，不强制使用字符串模板。
 
 ## 5. 原事件继续保留；可选绑定器不能与它重复执行
 

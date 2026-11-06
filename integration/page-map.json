@@ -184,87 +184,16 @@
   {
     "key": "workbench",
     "file": "pages/workbench.html",
-    "title": "工作台总览",
+    "title": "总数据 - 综述矩阵",
     "group": "综述与研究记录",
-    "original_route": "/workbench · 总览区域",
-    "evidence": "public+template",
-    "evidence_label": "公开框架 + 登录后模板",
-    "modules": [
-      "M9",
-      "M10"
-    ],
-    "production_route_policy": "retain-existing",
-    "number": 14
-  },
-  {
-    "key": "review-matrix",
-    "file": "pages/review-matrix.html",
-    "title": "综述矩阵",
-    "group": "综述与研究记录",
-    "original_route": "/workbench · 综述矩阵区域",
+    "original_route": "/workbench",
     "evidence": "approved",
-    "evidence_label": "已确认原型",
+    "evidence_label": "已确认原型 · 总数据层",
     "modules": [
       "M11"
     ],
     "production_route_policy": "retain-existing",
-    "number": 15
-  },
-  {
-    "key": "deep-reading",
-    "file": "pages/deep-reading.html",
-    "title": "深读任务",
-    "group": "综述与研究记录",
-    "original_route": "/workbench · 深读区域",
-    "evidence": "template",
-    "evidence_label": "待对接模板",
-    "modules": [
-      "M12"
-    ],
-    "production_route_policy": "retain-existing",
-    "number": 16
-  },
-  {
-    "key": "reading-detail",
-    "file": "pages/reading-detail.html",
-    "title": "深读记录详情",
-    "group": "综述与研究记录",
-    "original_route": null,
-    "evidence": "template",
-    "evidence_label": "待对接模板",
-    "modules": [
-      "M12"
-    ],
-    "production_route_policy": "retain-existing",
-    "number": 17
-  },
-  {
-    "key": "questions",
-    "file": "pages/questions.html",
-    "title": "开放问题",
-    "group": "综述与研究记录",
-    "original_route": "/workbench · 问题区域",
-    "evidence": "template",
-    "evidence_label": "待对接模板",
-    "modules": [
-      "M13"
-    ],
-    "production_route_policy": "retain-existing",
-    "number": 18
-  },
-  {
-    "key": "question-detail",
-    "file": "pages/question-detail.html",
-    "title": "开放问题详情",
-    "group": "综述与研究记录",
-    "original_route": null,
-    "evidence": "template",
-    "evidence_label": "待对接模板",
-    "modules": [
-      "M13"
-    ],
-    "production_route_policy": "retain-existing",
-    "number": 19
+    "number": 14
   },
   {
     "key": "login",
@@ -278,7 +207,7 @@
       "M17"
     ],
     "production_route_policy": "retain-existing",
-    "number": 20
+    "number": 15
   },
   {
     "key": "register",
@@ -292,7 +221,7 @@
       "M17"
     ],
     "production_route_policy": "retain-existing",
-    "number": 21
+    "number": 16
   },
   {
     "key": "password-reset",
@@ -306,7 +235,7 @@
       "M17"
     ],
     "production_route_policy": "retain-existing",
-    "number": 22
+    "number": 17
   },
   {
     "key": "account",
@@ -320,7 +249,7 @@
       "M17"
     ],
     "production_route_policy": "retain-existing",
-    "number": 23
+    "number": 18
   },
   {
     "key": "research-interests",
@@ -334,7 +263,7 @@
       "M17"
     ],
     "production_route_policy": "retain-existing",
-    "number": 24
+    "number": 19
   },
   {
     "key": "preferences",
@@ -348,7 +277,7 @@
       "M17"
     ],
     "production_route_policy": "retain-existing",
-    "number": 25
+    "number": 20
   },
   {
     "key": "billing",
@@ -362,7 +291,7 @@
       "M17"
     ],
     "production_route_policy": "retain-existing",
-    "number": 26
+    "number": 21
   },
   {
     "key": "api-keys",
@@ -377,7 +306,7 @@
       "M17"
     ],
     "production_route_policy": "retain-existing",
-    "number": 27
+    "number": 22
   },
   {
     "key": "privacy",
@@ -391,7 +320,7 @@
       "M17"
     ],
     "production_route_policy": "retain-existing",
-    "number": 28
+    "number": 23
   },
   {
     "key": "help",
@@ -405,7 +334,7 @@
       "M14"
     ],
     "production_route_policy": "retain-existing",
-    "number": 29
+    "number": 24
   },
   {
     "key": "help-article",
@@ -419,7 +348,7 @@
       "M14"
     ],
     "production_route_policy": "retain-existing",
-    "number": 30
+    "number": 25
   },
   {
     "key": "stats",
@@ -433,7 +362,7 @@
       "M15"
     ],
     "production_route_policy": "retain-existing",
-    "number": 31
+    "number": 26
   },
   {
     "key": "agents",
@@ -447,7 +376,7 @@
       "M16"
     ],
     "production_route_policy": "retain-existing",
-    "number": 32
+    "number": 27
   },
   {
     "key": "metrics",
@@ -461,7 +390,7 @@
       "M18"
     ],
     "production_route_policy": "retain-existing",
-    "number": 33
+    "number": 28
   },
   {
     "key": "changelog",
@@ -475,7 +404,7 @@
       "M18"
     ],
     "production_route_policy": "retain-existing",
-    "number": 34
+    "number": 29
   },
   {
     "key": "about",
@@ -489,7 +418,7 @@
       "M18"
     ],
     "production_route_policy": "retain-existing",
-    "number": 35
+    "number": 30
   },
   {
     "key": "not-found",
@@ -503,7 +432,7 @@
       "M19"
     ],
     "production_route_policy": "retain-existing",
-    "number": 36
+    "number": 31
   },
   {
     "key": "components",
@@ -518,6 +447,6 @@
       "M19"
     ],
     "production_route_policy": "retain-existing",
-    "number": 37
+    "number": 32
   }
 ]

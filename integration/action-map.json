@@ -100,7 +100,7 @@
       "pages": [
         "paper-detail",
         "paper-search",
-        "review-matrix"
+        "workbench"
       ],
       "handler": "host callback required",
       "network_endpoint": null
@@ -114,40 +114,6 @@
         "paper-detail",
         "paper-search",
         "saved-papers"
-      ],
-      "handler": "host callback required",
-      "network_endpoint": null
-    },
-    {
-      "name": "questions.create",
-      "pages": [
-        "questions"
-      ],
-      "handler": "host callback required",
-      "network_endpoint": null
-    },
-    {
-      "name": "questions.open",
-      "pages": [
-        "questions"
-      ],
-      "handler": "host callback required",
-      "network_endpoint": null
-    },
-    {
-      "name": "questions.toggleTracking",
-      "pages": [
-        "question-detail",
-        "questions"
-      ],
-      "handler": "host callback required",
-      "network_endpoint": null
-    },
-    {
-      "name": "questions.update",
-      "pages": [
-        "question-detail",
-        "questions"
       ],
       "handler": "host callback required",
       "network_endpoint": null
@@ -171,7 +137,7 @@
     {
       "name": "reviews.export",
       "pages": [
-        "review-matrix"
+        "workbench"
       ],
       "handler": "host callback required",
       "network_endpoint": null
@@ -179,7 +145,7 @@
     {
       "name": "reviews.generate",
       "pages": [
-        "review-matrix"
+        "workbench"
       ],
       "handler": "host callback required",
       "network_endpoint": null
@@ -187,7 +153,7 @@
     {
       "name": "reviews.removePapers",
       "pages": [
-        "review-matrix"
+        "workbench"
       ],
       "handler": "host callback required",
       "network_endpoint": null
@@ -195,7 +161,7 @@
     {
       "name": "reviews.save",
       "pages": [
-        "review-matrix"
+        "workbench"
       ],
       "handler": "host callback required",
       "network_endpoint": null
@@ -283,14 +249,6 @@
       "network_endpoint": null
     },
     {
-      "name": "readings.saveNote",
-      "pages": [
-        "reading-detail"
-      ],
-      "payload": "FormData mapped by host",
-      "network_endpoint": null
-    },
-    {
       "name": "readings.updateVisibility",
       "pages": [
         "privacy"
@@ -309,7 +267,7 @@
     {
       "name": "reviews.save",
       "pages": [
-        "review-matrix.dialogs"
+        "workbench"
       ],
       "payload": "FormData mapped by host",
       "network_endpoint": null
