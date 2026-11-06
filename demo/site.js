@@ -137,6 +137,7 @@
     if(!form.reportValidity())return;
     const showResult=(message,error=false)=>{const out=$('.pd-form-result',form);if(out){out.innerHTML=`<div class="alert ${error?'error':'neutral'}">${h(message)}</div>`;}else toast(message,error?'error':'success');};
     if(kind==='filter'){filterLocal();return;}
+    if(kind==='author-search'){showResult('这是搜索页交互示例；正式接入后将调用作者检索接口。');return;}
     if(kind==='home-query'){const q=new FormData(form).get('query');location.href='research-qa.html?q='+encodeURIComponent(q);return;}
     if(kind==='qa'){
       const epoch=++queryEpoch,button=$('button[type=submit]',form),label=button.innerHTML;button.disabled=true;button.innerHTML='<span class="spinner"></span>展示预置内容';
@@ -189,3 +190,4 @@
   filterLocal();
   window.PDSiteDemo={filterLocal,renderQuestions,renderKeys,renderPaper,renderDataset,renderMethod};
 })();
+
