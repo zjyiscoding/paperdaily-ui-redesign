@@ -1,32 +1,23 @@
-/* Workbench landing only. Shared UI components and sidebar remain unchanged. */
-#pd-ui .workbench-home .wb-heading{margin-bottom:24px}
-#pd-ui .workbench-home .wb-heading h1{margin-top:6px}
-#pd-ui .wb-activity{display:flex;align-items:center;gap:0;padding:16px 0 22px;border-bottom:1px solid var(--line);margin-bottom:28px;flex-wrap:wrap}
-#pd-ui .wb-activity>div{display:flex;align-items:baseline;gap:9px;min-width:150px;padding:0 22px;border-right:1px solid var(--line)}
-#pd-ui .wb-activity>div:first-child{padding-left:0}
-#pd-ui .wb-activity>div:last-child{border-right:0}
-#pd-ui .wb-activity strong{font-size:25px;font-weight:650;line-height:1.2;color:var(--ink)}
-#pd-ui .wb-activity span{font-size:13px;color:var(--muted)}
-#pd-ui .wb-columns{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(300px,.85fr);gap:36px;align-items:start}
-#pd-ui .wb-section{min-width:0}
-#pd-ui .wb-section-head{display:flex;align-items:baseline;justify-content:space-between;gap:14px;padding-bottom:15px;border-bottom:1px solid var(--line)}
-#pd-ui .wb-section-head h2{font-size:19px;font-weight:650;margin:0}
-#pd-ui .wb-section-head>span{font-size:13px;color:var(--muted)}
-#pd-ui .wb-task{display:flex;gap:16px;padding:23px 4px;border-bottom:1px solid var(--line);color:inherit;align-items:flex-start;min-width:0}
-#pd-ui .wb-task:hover,#pd-ui .wb-resources a:hover{background:var(--faint)}
-#pd-ui .wb-task-icon{display:flex;align-items:center;justify-content:center;width:34px;height:34px;flex:0 0 34px;border:1px solid var(--line);border-radius:9px;color:var(--accent);font-size:18px}
-#pd-ui .wb-task-content{display:flex;flex:1;min-width:0;flex-direction:column;gap:7px}
-#pd-ui .wb-task-content strong{font-size:16px;font-weight:650}
-#pd-ui .wb-task-content>span{font-size:15px;line-height:1.55;overflow-wrap:anywhere}
-#pd-ui .wb-task-content small{font-size:13px;line-height:1.55;color:var(--muted)}
-#pd-ui .wb-task-action{flex:0 0 auto;white-space:nowrap;color:var(--accent);font-size:13px;margin-top:5px}
-#pd-ui .wb-task-action span{font-size:18px;margin-left:5px}
-#pd-ui .wb-resources>a{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:5px 12px;padding:16px 4px;border-bottom:1px solid var(--line);color:var(--ink)}
-#pd-ui .wb-resources>a>span:first-child{font-size:15px;font-weight:600}
-#pd-ui .wb-resources>a>small{grid-column:1;grid-row:2;font-size:13px;color:var(--muted)}
-#pd-ui .wb-resources>a>span:last-child{grid-column:2;grid-row:1/3;align-self:center;color:var(--accent);font-size:18px}
-#pd-ui .wb-resource-inactive{display:flex;flex-direction:column;gap:5px;padding:16px 4px;border-bottom:1px solid var(--line)}
-#pd-ui .wb-resource-inactive span{font-size:15px;font-weight:600}
-#pd-ui .wb-resource-inactive small{font-size:13px;color:var(--muted)}
-@media(max-width:1080px){#pd-ui .wb-columns{grid-template-columns:minmax(0,1fr);gap:34px}#pd-ui .wb-activity>div{min-width:130px}}
-@media(max-width:680px){#pd-ui .wb-activity{gap:16px 0}#pd-ui .wb-activity>div{width:50%;padding:0 12px;border-right:0}#pd-ui .wb-activity>div:nth-child(odd){padding-left:0}#pd-ui .wb-task{gap:12px;padding:18px 0}#pd-ui .wb-task-action{font-size:0}#pd-ui .wb-task-action span{font-size:20px}#pd-ui .wb-section-head h2{font-size:18px}}
+/* PaperDaily workbench: approved first Material card-list design only. */
+#pd-ui .workbench-home{max-width:none;background:#f6f8f5;color:#24362d;padding:42px clamp(25px,5vw,86px) 60px}
+#pd-ui .workbench-home>.wb-heading,#pd-ui .workbench-home>#liveContent{max-width:1000px;margin-left:auto;margin-right:auto}
+#pd-ui .workbench-home>.wb-heading{margin-bottom:25px}
+#pd-ui .workbench-home .wb-heading h1{font-size:30px;letter-spacing:-.7px;font-weight:760;line-height:1.3}
+#pd-ui .wb-material-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#9fc3a8;margin-left:10px;vertical-align:middle}
+#pd-ui .wb-material-grid{display:grid;gap:13px}
+#pd-ui .wb-material-card{background:#fff;border-radius:21px;box-shadow:0 2px 3px rgba(31,55,41,.04),0 9px 26px rgba(31,55,41,.065);border:1px solid rgba(214,222,214,.64);min-height:91px;display:grid;grid-template-columns:235px minmax(0,1fr) 30px;gap:18px;align-items:center;padding:17px 23px;transition:transform .17s ease,box-shadow .17s ease;position:relative}
+#pd-ui .wb-material-card:hover{transform:translateY(-1px);box-shadow:0 5px 10px rgba(31,55,41,.05),0 14px 32px rgba(31,55,41,.085)}
+#pd-ui .wb-material-name{display:flex;gap:13px;align-items:center;min-width:0;color:#24362d;text-decoration:none}
+#pd-ui .wb-material-icon{display:grid;place-items:center;flex:0 0 40px;width:40px;height:40px;border-radius:13px;background:#e4eee7;color:#3e7058;font-size:18px;font-weight:650}
+#pd-ui .wb-material-name strong{font-size:15px;font-weight:700;white-space:nowrap}
+#pd-ui .wb-material-detail{min-width:0;display:grid;gap:4px}
+#pd-ui .wb-material-detail strong{font-weight:550;font-size:15px;line-height:1.55;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#pd-ui .wb-material-detail small,#pd-ui .wb-material-detail .wb-material-secondary-link{font-size:13px;line-height:1.5;color:#728078;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#pd-ui .wb-material-detail .wb-material-secondary-link:hover{text-decoration:underline;text-underline-offset:3px;color:#28513e}
+#pd-ui .wb-material-chevron{justify-self:end;color:#83948a;font-size:25px;font-weight:300;line-height:1;text-decoration:none}
+#pd-ui .wb-material-card:nth-child(4) .wb-material-icon,#pd-ui .wb-material-card:nth-child(5) .wb-material-icon,#pd-ui .wb-material-card:nth-child(6) .wb-material-icon{background:#e5ebe9}
+#pd-ui .wb-material-card:nth-child(5) .wb-material-detail strong{font-weight:600}
+#pd-ui .wb-material-static .wb-material-chevron{opacity:.5}
+#pd-ui .workbench-home>.source-footer{display:none}
+@media(max-width:1020px){#pd-ui .wb-material-card{grid-template-columns:185px minmax(0,1fr) 24px;padding:16px 19px;gap:12px}#pd-ui .workbench-home{padding:36px 25px}}
+@media(max-width:760px){#pd-ui .workbench-home{padding:26px 16px 35px}#pd-ui .workbench-home .wb-heading h1{font-size:27px}#pd-ui .wb-material-grid{gap:11px}#pd-ui .wb-material-card{grid-template-columns:minmax(0,1fr) 22px;gap:9px 10px;padding:17px 18px}#pd-ui .wb-material-name{grid-column:1}#pd-ui .wb-material-detail{grid-column:1;padding-left:53px}#pd-ui .wb-material-chevron{grid-column:2;grid-row:1/3}#pd-ui .wb-material-detail strong,#pd-ui .wb-material-detail small,#pd-ui .wb-material-detail .wb-material-secondary-link{white-space:normal}}
